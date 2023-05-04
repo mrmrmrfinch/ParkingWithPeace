@@ -15,6 +15,9 @@ It doesn't stop here. We believe in the power of crowd-sourcing, not just on the
 
 Once we 1) collect enough data, and 2) have an accurate-enough model to predict, we expect students to be able to input the time range they plan to park, and get a probability heatmap of the entire campus for getting a parking ticket, thereby deciding whether or not to buy a one-day pass.
 
+## Details on algorithm
+We assume each campus can be mapped as a 2D space, which we visualize using already existing campus map. We log location as a pair of coordinates, and time as a range of hours. At the moment we assume all parking tickets are of equal type.
+
 ## Potential Issues
 - **Privacy**: We understand that some people may be concerned about privacy. We will not be collecting license plate numbers, and we will not be collecting any personal information. The only information we collect is the time range and location. We will also be releasing the data in CSV format, so that anyone can download and analyze the data themselves. The process is entirely transparent.
 
