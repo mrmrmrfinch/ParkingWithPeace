@@ -22,3 +22,13 @@ We assume each campus can be mapped as a 2D space, which we visualize using alre
 - **Privacy**: We understand that some people may be concerned about privacy. We will not be collecting license plate numbers, and we will not be collecting any personal information. The only information we collect is the time range and location. We will also be releasing the data in CSV format, so that anyone can download and analyze the data themselves. The process is entirely transparent.
 
 - **Attacks**: Since anyone can log data, it is possible for a malicious user to log fake data. We see this as a data analyzation problem, and we will be working on ways to detect and remove fake data. However, we don't see "downvoting" tickets or removing information arbitarily as a long-term solution. Any suggestions are welcome.
+
+## TODOs
+Any help is appreciated!
+- [ ] Front-end website
+    - [ ] Front-end map logging
+    - [ ] Front-end data visualization
+- [ ] Back-end database
+- [ ] Back-end API
+- [ ] Data dump mechanism
+- [ ] Anti-spoofing mechanism
